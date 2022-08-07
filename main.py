@@ -1,6 +1,9 @@
 from random import randint
 from art import logo 
 
+EASY_LEVEL_TURNS = 10
+HARD_LEVEL_TURNS = 5
+
 #Function to check user's guess against actual answer.
 def check_answer(guess, answer, turns):
     """Checks answer against guess. Returns the number of turns remaining."""
@@ -15,3 +18,9 @@ def check_answer(guess, answer, turns):
 
 
 #Make function to set difficulty
+def set_difficulty:
+    level = input("Choose a difficulty. Type 'easy' or 'hard': ")
+    if level = "easy":
+        return EASY_LEVEL_TURNS
+    else:
+        return HARD_LEVEL_TURNS
