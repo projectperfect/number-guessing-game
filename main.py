@@ -1,7 +1,7 @@
 from random import randint
 from art import logo 
 
-
+#Function to check user's guess against actual answer.
 def check_answer(guess, answer, turns):
     """Checks answer against guess. Returns the number of turns remaining."""
     if guess > answer:
@@ -13,3 +13,5 @@ def check_answer(guess, answer, turns):
     else:
         print(f"You got it! The answer was {answer}.")
 
+
+#Make function to set difficulty
